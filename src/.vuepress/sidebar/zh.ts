@@ -94,7 +94,6 @@ const coverSidebarConfig ={
     children: "structure",
   },
   "intro",
-  "slide",
 ],
 }
 
