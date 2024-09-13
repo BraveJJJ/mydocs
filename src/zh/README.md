@@ -2,7 +2,9 @@
 home: true
 layout: BlogHome
 icon: clarity:home-solid
-title: 小屋
+title: 首页
+bgImage: http://localhost:8080/mydocs/assets/images/bg.png
+bgimagedark: http://localhost:8080/mydocs/assets/images/bgnight.jpg
 heroImage: /logo.svg
 heroText: BraveJ,一个.NET开发者
 heroFullScreen: true
@@ -40,6 +42,33 @@ projects:
 
 footer: 自定义你的页脚文字
 ---
+
+  <!-- <script lang="ts">
+  import { defineComponent, ref, onMounted, onBeforeUnmount } from 'vue';
+  export default defineComponent({
+    name: 'TimeDisplay',
+    setup() {
+      const currentTime = ref('');
+      let timer: number;
+      const updateTime = () => {
+        const now = new Date();
+        currentTime.value = now.toLocaleTimeString();
+      };
+      onMounted(() => {
+        updateTime();
+        timer = setInterval(updateTime, 1000);
+      });
+      onBeforeUnmount(() => {
+        clearInterval(timer);
+      });
+      return {
+        currentTime,
+      };
+    },
+  });
+  </script>
+
+<p> {{currentTime}}</p> -->
 
 这是一个博客主页的案例。
 

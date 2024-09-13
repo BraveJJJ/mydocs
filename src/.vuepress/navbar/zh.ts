@@ -1,5 +1,5 @@
 import { navbar } from "vuepress-theme-hope";
-import { Icon } from '@iconify/vue';
+import { Icon } from "@iconify/vue";
 
 export const zhNavbar = navbar([
   "/zh/",
@@ -10,8 +10,7 @@ export const zhNavbar = navbar([
     text: "博文",
     icon: "catppuccin:http",
     prefix: "/zh/posts/",
-    children: 
-    [
+    children: [
       {
         text: "苹果",
         icon: "pen-to-square",
